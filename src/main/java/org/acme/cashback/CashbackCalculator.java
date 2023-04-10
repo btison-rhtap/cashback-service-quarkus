@@ -42,7 +42,7 @@ public class CashbackCalculator {
             cashbackDTO.addToCashbackAmount(newEarnedCashbackForSingleExpense);
         }
 
-        log.debug("Adding to cashback " + cashbackDTO.getExpenseEarnedAmount());
+        log.info("Adding to cashback " + cashbackDTO.getExpenseEarnedAmount());
         return cashbackDTO;
     }
 
